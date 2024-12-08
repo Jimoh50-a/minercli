@@ -22,7 +22,7 @@ The easiest way to run the Volara miner is with Docker - a containerization solu
 ## Quickstart
 
 Paste this into your terminal to start mining:
-
+volara mine start
 ```shell
 [ -f "volara.sh" ] && rm volara.sh; curl -s -o volara.sh https://raw.githubusercontent.com/volaradlp/minercli/refs/heads/main/run_docker.sh && chmod +x volara.sh && ./volara.sh
 ```
